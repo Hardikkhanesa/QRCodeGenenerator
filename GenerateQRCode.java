@@ -18,7 +18,7 @@ public class GenerateQRCode {
 
 	public static void main(String[] args) throws WriterException, IOException {
 		String qrCodeText = "www.google.com";
-		String filePath = "D:\\JD.png";        //location where your png file will generate
+		String filePath = "D:\\hk.png";        //location where your png file will generate
 		int size = 125;
 		String fileType = "png";
 		File qrFile = new File(filePath);
